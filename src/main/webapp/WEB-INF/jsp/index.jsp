@@ -14,15 +14,13 @@
     <div class="contentblock">
         <h1>Example - Spring Application</h1>
         <h2><%@include file="/WEB-INF/jsp/includes/greeting.jsp" %><h2>
-        <a href="hello.html">Hillel IT School</a>
+        <a href="login.html">Hillel IT School</a>
         <br>
-        <img src="${mainGif}" alt="MY HUGE DIIIICK!" style="float:center;width:350px;height:350px;">
-        </div>
+    </div>
 
         <form action="login" method="post">
         <input type="text" name="login" value="login"><br>
         <input type="text" name="password" value="password"><br>
         <input type="submit">
     </body>
-<%@include file="/WEB-INF/jsp/includes/footer.jsp" %>
 </html>
